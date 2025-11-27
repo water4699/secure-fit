@@ -51,7 +51,7 @@ export function Providers({ children }: Props) {
   return (
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient}>
-        <RainbowKitProvider>
+        <RainbowKitProvider locale="en">
           <div className="absolute top-4 right-4 z-50">
             <ConnectButton />
           </div>
